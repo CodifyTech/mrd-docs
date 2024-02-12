@@ -1,0 +1,30 @@
+_id: req_03494a5845764a3c9e078c5ad8f771b8
+type: Request
+parentId: fld_c4749c604c17491ea2e6588b762d5371
+modified: 1701362307842
+created: 1698973788890
+url: "{{ _.BASE_URL
+  }}/api/agendamento?start=2023-11-31T03:00:00.000Z&end=2023-12-02T03:00:00.000\
+  Z"
+name: Agenda
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1698955166049
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_6c323b9578574007bf6b760b96472dc5
+type: Request
+parentId: fld_78d421e7ec6943beaee3ec6823240703
+modified: 1696266353893
+created: 1696265095273
+url: "{{ _.BASE_URL }}/api/paciente/pesquisarpor/nome/Luiz"
+name: Por Nome
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1696265099318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

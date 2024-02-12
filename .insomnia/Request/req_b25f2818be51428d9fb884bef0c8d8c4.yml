@@ -1,0 +1,57 @@
+_id: req_b25f2818be51428d9fb884bef0c8d8c4
+type: Request
+parentId: fld_c4749c604c17491ea2e6588b762d5371
+modified: 1701890692640
+created: 1698955152896
+url: "{{ _.BASE_URL }}/api/agendamento"
+name: Criar Agendamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "profissional_id": "08673501-4165-43ab-bde7-7547d4d4fd11",
+      "paciente_id": "",
+      "nome_paciente": "Lucas",
+      "atendente_id": "c091862b-e377-4082-a74c-ff9975ac6dbf",
+      "bloqueio": false,
+      "tipo_atendimento": 1,
+      "teleatendimento": false,
+      "primeira_consulta": false,
+      "particular": false,
+      "observacao": "",
+      "telefone_celular": "",
+      "telefone_fixo": "",
+      "email_paciente": "",
+      "status": 1,
+      "data_inicial": "2023-12-08 10:00",
+      "data_final": "2023-12-08 11:00",
+      "plano_id": "0b319889-9644-448d-882f-3dec42086013",
+      "convenio_id": "2c53c398-0b91-40d6-874a-9d01fc5c2234",
+      "plano_nome": "",
+      "convenio_nome": "",
+      "tipo_atendimento_nome": "",
+      "status_nome": "",
+      "clinica_id": "0d7304b2-fb4c-4fb0-b7a2-9ed6d4cbf4c4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1698955165949
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

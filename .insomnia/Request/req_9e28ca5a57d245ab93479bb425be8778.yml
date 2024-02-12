@@ -1,0 +1,48 @@
+_id: req_9e28ca5a57d245ab93479bb425be8778
+type: Request
+parentId: fld_c4749c604c17491ea2e6588b762d5371
+modified: 1699109147910
+created: 1699108913310
+url: "{{ _.BASE_URL }}/api/agendamento/93ab2c84-e9a4-41e9-9772-7cacc3e73692"
+name: Atualizar Agendamento
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "profissional_id": "395daceb-15e7-47d3-a77b-fe65365ce87b",
+        "paciente_id": "873b6b49-e4e7-4b52-ad9e-0347c8b59d14",
+        "paciente_nome": "Sr. Davi Daniel Garcia",
+        "atendente_id": "08673501-4165-43ab-bde7-7547d4d4fd11",
+        "bloqueio": false,
+        "tipo_atendimento": 1,
+        "teleatendimento": false,
+        "observacao": "Teste Novo",
+        "telefone_celular": null,
+        "telefone_fixo": null,
+        "email_paciente": null,
+        "status": 1,
+        "data_inicial": "2023-11-04 12:00",
+        "data_final": "2023-11-04 13:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1698955081203.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

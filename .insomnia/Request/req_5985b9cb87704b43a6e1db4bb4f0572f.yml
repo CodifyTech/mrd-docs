@@ -1,0 +1,32 @@
+_id: req_5985b9cb87704b43a6e1db4bb4f0572f
+type: Request
+parentId: fld_a32491dff8b345a49523d4276b101bf1
+modified: 1707511410811
+created: 1707511337550
+url: "{{ _.BASE_URL }}/api/sdocs/buscar-solicitacao"
+name: BuscarSolicitacao
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1707301805417.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

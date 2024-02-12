@@ -1,0 +1,36 @@
+_id: req_77ceafd85a314e668b8e0d4dd67c6152
+type: Request
+parentId: fld_ec125ad1ebcb406ea6cdf87554805aea
+modified: 1707323576976
+created: 1707281030730
+url: "{{ _.BASE_URL
+  }}/api/safeid/finalizar-assinatura/c6814b40-0963-4981-8f0f-f3c28d452df6/f62f3\
+  21e-b396-4baf-b8fa-bb2f10e95694/378cf38a2f83453f89d3d5bf14b4e485a"
+name: FinalizarAssinatura
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5161f1a6a6f54724a2d3b9956b5d5b9e
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_c6e87af0ce4f41d28a07d2b7c95f0435
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1707170623093.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

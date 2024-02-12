@@ -1,0 +1,124 @@
+_id: req_e53e1945fa334ee8bd932425bcb11c4f
+type: Request
+parentId: fld_83695bcbca71445e94ba884ee2cdb66d
+modified: 1699295599375
+created: 1699295278524
+url: "{{ _.BASE_URL }}/api/profissional"
+name: Criar Profissional
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_6a6a53174003462db14620b7f25e481e
+      name: name
+      value: Lucas Bizerril
+      description: ""
+    - id: pair_211006450b914549aefa32024d1bb914
+      name: nome_social
+      value: ""
+      description: ""
+    - id: pair_732fdf6008fe4fc2b563c91a5f7329c0
+      name: data_nascimento
+      value: 1996-02-12
+      description: ""
+    - id: pair_3f13481a00eb404b9137ce91e3856289
+      name: email
+      value: luquinhasbritogba1@hotmail.com
+      description: ""
+    - id: pair_f606cedf570b479bb49dee258c08f5cb
+      name: cpf
+      value: 112.531.974-73
+      description: ""
+    - id: pair_cdd724a3b75b420b94d3dba4ec334c14
+      name: senha
+      value: "123456"
+      description: ""
+    - id: pair_a28df32922144042a11e68b6ae36285c
+      name: senha_confirmation
+      value: "123456"
+      description: ""
+    - id: pair_def318ee7ac2428391f58e72406e35ad
+      name: perfil
+      value: "3"
+      description: ""
+    - id: pair_f47b0d8ccb814d73bf78741f8b9ad861
+      name: rua
+      value: Rua Desembargador
+      description: ""
+    - id: pair_e7bd1c56b1bc4673b91b140bf2af92fd
+      name: numero
+      value: "33"
+      description: ""
+    - id: pair_07e58a569ceb4ebf840c7b7bdf5f9fd4
+      name: cep
+      value: 58200-000
+      description: ""
+    - id: pair_fd829004f47847789d52f25ce910dad5
+      name: bairro
+      value: Rosario
+      description: ""
+    - id: pair_9787883b8e8943a4b5cd7c20c69711dd
+      name: cidade
+      value: Guarabira
+      description: ""
+    - id: pair_405f82f7055f44d7bfcfd6a66290e63d
+      name: uf
+      value: PB
+      description: ""
+    - id: pair_7a887e98b90646a9959f2d003924c9e1
+      name: complemento
+      value: ""
+      description: ""
+    - id: pair_8d1499bc97674205878bf8167c7afd93
+      name: especialidades
+      value: '[{"user_id":"","especialidade_id":null,"id":"","rqe":"","mapa":"","especialidade":"Manicure"}]'
+      description: ""
+    - id: pair_5e9ffd9156534c5596a5f92bf036e244
+      name: sexo
+      value: M
+      description: ""
+    - id: pair_57b535dd286b49b7b317cb55c52a287f
+      name: telefone
+      value: (83) 98884-9228
+      description: ""
+    - id: pair_10153a827f3845f3b231a7b343d77d89
+      name: telefone_2conselho_regional
+      value: (83) 8884-9228
+      description: ""
+    - id: pair_dbae0ce9e7754887a141b08b41ba8979
+      name: conselho_regional
+      value: "12"
+      description: ""
+    - id: pair_e84768b99d9441238395f49da2e6b6a2
+      name: uf_conselho
+      value: PB
+      description: ""
+    - id: pair_5a2e50c6461b4453a7d0afbedbc091eb
+      name: numero_conselho
+      value: "11111"
+      description: ""
+    - id: pair_fde6885eae164151ac7b31a973bae051
+      name: foto
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1694633944385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_04f514c2729c435db8ea521e0938ffe3
+type: Request
+parentId: fld_68574580ccaf4f77b082d248a2134aa2
+modified: 1696260207731
+created: 1696259228503
+url: "{{ _.BASE_URL }}/api/paciente/pesquisar/por/nome/Sr"
+name: Por Nome
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1696259253356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

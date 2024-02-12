@@ -1,0 +1,28 @@
+_id: req_14b10f93a6e74de09991270384dd1f4d
+type: Request
+parentId: fld_c4749c604c17491ea2e6588b762d5371
+modified: 1699019347629
+created: 1699018341688
+url: "{{ _.BASE_URL }}/api/agendamento/profissionais"
+name: Lista Profissionais
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1698955165999
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

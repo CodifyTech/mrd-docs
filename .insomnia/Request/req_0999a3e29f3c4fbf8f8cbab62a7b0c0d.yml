@@ -1,0 +1,52 @@
+_id: req_0999a3e29f3c4fbf8f8cbab62a7b0c0d
+type: Request
+parentId: fld_0a960e5d31b84bdfaceb14f961e38b33
+modified: 1707442356103
+created: 1694633966583
+url: "{{ _.BASE_URL }}/api/receita"
+name: Receita
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "paciente_id": "7bd53a69-86c3-4884-a9e2-837f05baba14",
+      "medicamentos": [
+        {
+          "medicamento_id": "000077ad-7f84-4c29-8cfc-6208ff95ab7b",
+          "posologia": "tt",
+          "texto_livre": "",
+          "embalagem": 1,
+          "eh_texto_livre": false
+        }
+      ],
+      "descricao": "",
+      "eh_contingencia": false,
+      "nome_paciente": "Maria Das Dores Juliana Coelho de Oliveira",
+      "cpf_paciente": "112.531.974-74",
+      "cid_id": "",
+      "mostrar_data": 1,
+      "tipo_receita": 1,
+    	"vai_assinar": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1694637774775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_eb309230542f4c4794651827b4c7cdf9
+type: Request
+parentId: fld_a32491dff8b345a49523d4276b101bf1
+modified: 1707739851657
+created: 1707537665835
+url: "{{ _.BASE_URL
+  }}/api/sdocs/verificar-baixar-documento/fea061d9-d2d3-4ef0-ad77-f690299aa40c"
+name: VerificarEBaixarDocumento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "3EFD00913CEF4A88B79C9D7D68DF4B",
+    	"identifier_doc": "1DB1A19920114A9"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1707279367064.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: env_49ea7ec52e94779f69e1ccaacb7d99b93110d71b
+type: Environment
+parentId: wrk_7487509d33d74db7ac78e4c11799cb6e
+modified: 1706632812796
+created: 1694465869471
+name: Base Environment
+data:
+  BASE_URL: http://127.0.0.1:8000
+  ENVIRONMENT: P
+  URL_PORTAL: https://assina.meureceituariodigital.com.br/app
+  URL_WEBSERVICE: https://assina.meureceituariodigital.com.br/webservices/publicacaodocumentos.asmx?WSDL
+  ACCESS_KEY: 0KYvZS4wV97iB33SaXVDlXMD6Ys2mlTRUPcocAQaejReRcq9yB7Oy+FqzTCZ59R2
+  CORPORATE_ACCOUNT: 38
+  CNPJ_PUBLISH: 42382927000183
+  USERNAME: admin@admin.com
+  PASSWORD: "123456"
+  Teste: 2
+dataPropertyOrder:
+  "&":
+    - BASE_URL
+    - ENVIRONMENT
+    - URL_PORTAL
+    - URL_WEBSERVICE
+    - ACCESS_KEY
+    - CORPORATE_ACCOUNT
+    - CNPJ_PUBLISH
+    - USERNAME
+    - PASSWORD
+    - Teste
+color: null
+isPrivate: false
+metaSortKey: 1694465869471

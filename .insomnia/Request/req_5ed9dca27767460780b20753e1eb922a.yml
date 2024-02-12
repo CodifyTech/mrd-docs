@@ -1,0 +1,36 @@
+_id: req_5ed9dca27767460780b20753e1eb922a
+type: Request
+parentId: fld_ec125ad1ebcb406ea6cdf87554805aea
+modified: 1707323224543
+created: 1707280629346
+url: "{{ _.BASE_URL
+  }}/api/safeid/aplicar-carimbo/c6814b40-0963-4981-8f0f-f3c28d452df6/378cf38a2f\
+  83453f89d3d5bf14b4e485"
+name: AplicarCarimbo
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5161f1a6a6f54724a2d3b9956b5d5b9e
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_c6e87af0ce4f41d28a07d2b7c95f0435
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1707177374065.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

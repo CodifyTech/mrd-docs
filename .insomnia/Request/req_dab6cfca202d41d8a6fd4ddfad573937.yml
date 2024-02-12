@@ -1,0 +1,48 @@
+_id: req_dab6cfca202d41d8a6fd4ddfad573937
+type: Request
+parentId: fld_0a960e5d31b84bdfaceb14f961e38b33
+modified: 1698955120858
+created: 1696969773227
+url: "{{ _.BASE_URL
+  }}/api/paciente/encaminhar/prescricao/a1d4bf82-c587-45e3-a007-a7d66b4359e0"
+name: Encaminhar
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2f4d8f9505214b5da1d7b02ca5f4582a
+      name: email
+      value: "true"
+      description: ""
+      disabled: false
+    - id: pair_b25ca87b15cc4947afbf921e3260dd65
+      name: whatsapp
+      value: "false"
+      description: ""
+    - id: pair_84c26e69853c4a2887b18747850032c8
+      name: prescricao_id
+      value: f2001bc8-9583-4f60-8017-bcbee6dfb367
+      description: ""
+    - id: pair_6d24ab61204b42cb8522dcc4c00bf695
+      name: sms
+      value: "false"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: 192|DnwS1Z9grirLe94btRTpYdJ8xVn19Ii0J3S5nhEmc787fd48
+  prefix: Bearer
+metaSortKey: -1694637774875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_c15293546d4d4aa2a46b063f75ab1679
+type: Request
+parentId: fld_ffc157fc307f4ec9950201e12145dec1
+modified: 1707661373696
+created: 1707587114676
+url: "{{ _.BASE_URL
+  }}/api/assinatura-docs/autenticacao/c6814b40-0963-4981-8f0f-f3c28d452df6/2"
+name: Autenticacao
+description: "- Parametro: user_id"
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1707587098865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

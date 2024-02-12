@@ -1,0 +1,42 @@
+_id: req_628e10ad39dc4896936bf851cfa7c57b
+type: Request
+parentId: fld_0a960e5d31b84bdfaceb14f961e38b33
+modified: 1707596510128
+created: 1698247949276
+url: "{{ _.BASE_URL }}/api/outro"
+name: Outro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"titulo_documento": "Teste",
+    	"conteudo": "Teste",
+    	"descricao": "",
+    	"paciente_id": "6796ed2f-96ea-4bae-979b-9f3029e4f8f4",
+    	"eh_contingencia": false,
+    	"nome_paciente": "Diego Garcia Jr.",
+    	"mostrar_data": 1,
+    	"vai_assinar": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1694635859530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

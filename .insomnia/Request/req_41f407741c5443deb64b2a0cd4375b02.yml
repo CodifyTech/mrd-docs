@@ -1,0 +1,30 @@
+_id: req_41f407741c5443deb64b2a0cd4375b02
+type: Request
+parentId: fld_c4749c604c17491ea2e6588b762d5371
+modified: 1701272399169
+created: 1701271160781
+url: "{{ _.BASE_URL
+  }}/api/agendamento/lista/plano/2c53c398-0b91-40d6-874a-9d01fc5c2234?search=Bu\
+  ssiness"
+name: Lista Plano
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1698955102389.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

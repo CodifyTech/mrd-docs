@@ -1,0 +1,23 @@
+_id: req_9ec096ed74ee47d987a0ca02ff3a69a7
+type: Request
+parentId: fld_6cef3140827041718b6f348a67159e2b
+modified: 1697223835619
+created: 1697208475464
+url: "{{ _.BASE_URL }}/teste/SMS/+5511966024682/Teste Messagem"
+name: SMS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697208475464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: env_e3ea386537734917b564a64581a0cc7a
+type: Environment
+parentId: env_49ea7ec52e94779f69e1ccaacb7d99b93110d71b
+modified: 1706632903041
+created: 1697026982008
+name: Production
+data:
+  BASE_URL: https://mrd-api-prd-86a36340b39d.herokuapp.com/public
+  USERNAME: boingbuco@gmail.com
+  PASSWORD: "#Mrd0313"
+  TP_ASSINATURA: ICP
+  URL_PORTAL: https://assina.meureceituariodigital.com.br/app
+  URL_WEBSERVICE: https://assina.meureceituariodigital.com.br/webservices/publicacaodocumentos.asmx?WSDL
+  ENVIRONMENT: P
+  ACCESS_KEY: 0KYvZS4wV97iB33SaXVDlXMD6Ys2mlTRUPcocAQaejReRcq9yB7Oy+FqzTCZ59R2
+  CORPORATE_ACCOUNT: 38
+  CNPJ_PUBLISH: 42382927000183
+dataPropertyOrder:
+  "&":
+    - BASE_URL
+    - USERNAME
+    - PASSWORD
+    - TP_ASSINATURA
+    - URL_PORTAL
+    - URL_WEBSERVICE
+    - ENVIRONMENT
+    - ACCESS_KEY
+    - CORPORATE_ACCOUNT
+    - CNPJ_PUBLISH
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1697026982008

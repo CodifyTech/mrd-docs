@@ -1,0 +1,44 @@
+_id: req_b21eca6541b842c2a0ac8d91d814cdb0
+type: Request
+parentId: fld_35d69364efc14a05b81eeb8e1fbc31ec
+modified: 1697723480102
+created: 1697722993178
+url: "{{ _.BASE_URL }}/api/prontuario"
+name: Iniciar Atendimento
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a948f47f24d44272a404ea7682db6cb8
+      name: clinica_id
+      value: 2280ef5f-5e77-4858-b8fc-779c4a50db75
+      description: ""
+    - id: pair_99091495204a4d12a04da83c0516ebcd
+      name: paciente_id
+      value: 60af8527-1edc-473e-bce3-4ce44470362e
+      description: ""
+    - id: pair_5b0e17c9ad8f44d9bd565ee4d55cb2a5
+      name: anexos
+      value: "[]"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1697722993178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

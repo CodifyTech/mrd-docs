@@ -1,0 +1,28 @@
+_id: req_912206c7ae964b43bdafb0a92bdf28f2
+type: Request
+parentId: fld_fe827a77955e426d9bc66bad0baa1993
+modified: 1699294478661
+created: 1699293078417
+url: "{{ _.BASE_URL }}/api/especialidades/12/Ma"
+name: Pesquisar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
+  prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
+    'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
+metaSortKey: -1699293085398
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
