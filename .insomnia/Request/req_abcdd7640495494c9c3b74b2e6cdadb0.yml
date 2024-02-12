@@ -1,10 +1,10 @@
 _id: req_abcdd7640495494c9c3b74b2e6cdadb0
 type: Request
-parentId: wrk_7487509d33d74db7ac78e4c11799cb6e
-modified: 1707741267185
+parentId: fld_67514f72b1eb41618e9f2b3ec14987b2
+modified: 1707741959770
 created: 1701204951210
 url: "{{ _.BASE_URL }}/api/clinica/listar/convenios?page=1"
-name: Convenios
+name: Lista Convenios
 description: ""
 method: GET
 body: {}
@@ -18,7 +18,7 @@ authentication:
     'b64::JC50b2tlbi50b2tlbg==::46b', 'when-expired', 86400 %}"
   prefix: "{% response 'body', 'req_0ae65b13e60542768deb57721bb889b9',
     'b64::JC50b2tlbi50b2tlbl90eXBl::46b', 'when-expired', 86400 %}"
-metaSortKey: -1698954995436.5
+metaSortKey: -1707741949678
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
